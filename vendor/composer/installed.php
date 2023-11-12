@@ -3,7 +3,7 @@
         'name' => '__root__',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '5309e90d4632239d85995ef1e22717a4caeccb79',
+        'reference' => '5c395683040c0c6abe332cb0b801b2cb1b50fcca',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '__root__' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '5309e90d4632239d85995ef1e22717a4caeccb79',
+            'reference' => '5c395683040c0c6abe332cb0b801b2cb1b50fcca',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -391,24 +391,6 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
-        'nystudio107/craft-plugin-vite' => array(
-            'pretty_version' => '4.0.8',
-            'version' => '4.0.8.0',
-            'reference' => 'eb05b1cc7dc9eeecbdfe8cd3cd3d119e83c62619',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../nystudio107/craft-plugin-vite',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'nystudio107/craft-vite' => array(
-            'pretty_version' => '4.0.6',
-            'version' => '4.0.6.0',
-            'reference' => 'd20d2dbfd3b2d4ecd0380b3869185d54a9cf80a2',
-            'type' => 'craft-plugin',
-            'install_path' => __DIR__ . '/../nystudio107/craft-vite',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'paragonie/random_compat' => array(
             'pretty_version' => 'v9.99.100',
             'version' => '9.99.100.0',
@@ -565,8 +547,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(

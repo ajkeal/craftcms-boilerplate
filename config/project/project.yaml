@@ -1,4 +1,4 @@
-dateModified: 1699784446
+dateModified: 1699826112
 email:
   fromEmail: craft@mailinator.com
   fromName: CraftCMS
@@ -8,11 +8,6 @@ meta:
     85ecffb1-4bc6-4ec0-8a84-7b99b4ed19d4: Common # Common
     56401c0c-57db-4c46-aa39-a3457c18b88c: CraftCMS # CraftCMS
     af58e75f-c12d-4346-adeb-131e8ba65439: CraftCMS # CraftCMS
-plugins:
-  vite:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
