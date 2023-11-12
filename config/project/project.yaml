@@ -1,0 +1,22 @@
+dateModified: 1699783227
+email:
+  fromEmail: craft@mailinator.com
+  fromName: CraftCMS
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    85ecffb1-4bc6-4ec0-8a84-7b99b4ed19d4: Common # Common
+    56401c0c-57db-4c46-aa39-a3457c18b88c: CraftCMS # CraftCMS
+    af58e75f-c12d-4346-adeb-131e8ba65439: CraftCMS # CraftCMS
+system:
+  edition: solo
+  live: true
+  name: CraftCMS
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
