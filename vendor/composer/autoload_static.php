@@ -66,6 +66,11 @@ class ComposerStaticInitca658de19bf7ceec8bae1c4e2a3b975a
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'n' => 
+        array (
+            'nystudio107\\vite\\' => 17,
+            'nystudio107\\pluginvite\\' => 23,
+        ),
         'm' => 
         array (
             'modules\\' => 8,
@@ -292,6 +297,14 @@ class ComposerStaticInitca658de19bf7ceec8bae1c4e2a3b975a
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'nystudio107\\vite\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nystudio107/craft-vite/src',
+        ),
+        'nystudio107\\pluginvite\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nystudio107/craft-plugin-vite/src',
         ),
         'modules\\' => 
         array (
@@ -4781,6 +4794,18 @@ class ComposerStaticInitca658de19bf7ceec8bae1c4e2a3b975a
         'enshrined\\svgSanitize\\data\\TagInterface' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/data/TagInterface.php',
         'enshrined\\svgSanitize\\data\\XPath' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/data/XPath.php',
         'mikehaertl\\shellcommand\\Command' => __DIR__ . '/..' . '/mikehaertl/php-shellcommand/src/Command.php',
+        'nystudio107\\pluginvite\\helpers\\FileHelper' => __DIR__ . '/..' . '/nystudio107/craft-plugin-vite/src/helpers/FileHelper.php',
+        'nystudio107\\pluginvite\\helpers\\ManifestHelper' => __DIR__ . '/..' . '/nystudio107/craft-plugin-vite/src/helpers/ManifestHelper.php',
+        'nystudio107\\pluginvite\\services\\VitePluginService' => __DIR__ . '/..' . '/nystudio107/craft-plugin-vite/src/services/VitePluginService.php',
+        'nystudio107\\pluginvite\\services\\ViteService' => __DIR__ . '/..' . '/nystudio107/craft-plugin-vite/src/services/ViteService.php',
+        'nystudio107\\pluginvite\\variables\\ViteVariableInterface' => __DIR__ . '/..' . '/nystudio107/craft-plugin-vite/src/variables/ViteVariableInterface.php',
+        'nystudio107\\pluginvite\\variables\\ViteVariableTrait' => __DIR__ . '/..' . '/nystudio107/craft-plugin-vite/src/variables/ViteVariableTrait.php',
+        'nystudio107\\vite\\Vite' => __DIR__ . '/..' . '/nystudio107/craft-vite/src/Vite.php',
+        'nystudio107\\vite\\helpers\\PluginConfig' => __DIR__ . '/..' . '/nystudio107/craft-vite/src/helpers/PluginConfig.php',
+        'nystudio107\\vite\\models\\Settings' => __DIR__ . '/..' . '/nystudio107/craft-vite/src/models/Settings.php',
+        'nystudio107\\vite\\services\\Helper' => __DIR__ . '/..' . '/nystudio107/craft-vite/src/services/Helper.php',
+        'nystudio107\\vite\\services\\ServicesTrait' => __DIR__ . '/..' . '/nystudio107/craft-vite/src/services/ServicesTrait.php',
+        'nystudio107\\vite\\variables\\ViteVariable' => __DIR__ . '/..' . '/nystudio107/craft-vite/src/variables/ViteVariable.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',

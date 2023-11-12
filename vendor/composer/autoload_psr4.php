@@ -28,6 +28,8 @@ return array(
     'samdark\\log\\tests\\' => array($vendorDir . '/samdark/yii2-psr-log-target/tests'),
     'samdark\\log\\' => array($vendorDir . '/samdark/yii2-psr-log-target/src'),
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/type-resolver/src', $vendorDir . '/phpdocumentor/reflection-docblock/src'),
+    'nystudio107\\vite\\' => array($vendorDir . '/nystudio107/craft-vite/src'),
+    'nystudio107\\pluginvite\\' => array($vendorDir . '/nystudio107/craft-plugin-vite/src'),
     'modules\\' => array($baseDir . '/modules'),
     'mikehaertl\\shellcommand\\' => array($vendorDir . '/mikehaertl/php-shellcommand/src'),
     'enshrined\\svgSanitize\\' => array($vendorDir . '/enshrined/svg-sanitize/src'),

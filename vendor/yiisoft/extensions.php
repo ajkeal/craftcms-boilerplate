@@ -3,6 +3,26 @@
 $vendorDir = dirname(__DIR__);
 
 return array (
+  'craftcms/generator' => 
+  array (
+    'name' => 'craftcms/generator',
+    'version' => '1.6.1.0',
+    'alias' => 
+    array (
+      '@craft/generator' => $vendorDir . '/craftcms/generator/src',
+    ),
+    'bootstrap' => 'craft\\generator\\Extension',
+  ),
+  'yiisoft/yii2-shell' => 
+  array (
+    'name' => 'yiisoft/yii2-shell',
+    'version' => '2.0.5.0',
+    'alias' => 
+    array (
+      '@yii/shell' => $vendorDir . '/yiisoft/yii2-shell',
+    ),
+    'bootstrap' => 'yii\\shell\\Bootstrap',
+  ),
   'yiisoft/yii2-symfonymailer' => 
   array (
     'name' => 'yiisoft/yii2-symfonymailer',
@@ -58,25 +78,5 @@ return array (
     array (
       '@creocoder/nestedsets' => $vendorDir . '/creocoder/yii2-nested-sets/src',
     ),
-  ),
-  'craftcms/generator' => 
-  array (
-    'name' => 'craftcms/generator',
-    'version' => '1.6.1.0',
-    'alias' => 
-    array (
-      '@craft/generator' => $vendorDir . '/craftcms/generator/src',
-    ),
-    'bootstrap' => 'craft\\generator\\Extension',
-  ),
-  'yiisoft/yii2-shell' => 
-  array (
-    'name' => 'yiisoft/yii2-shell',
-    'version' => '2.0.5.0',
-    'alias' => 
-    array (
-      '@yii/shell' => $vendorDir . '/yiisoft/yii2-shell',
-    ),
-    'bootstrap' => 'yii\\shell\\Bootstrap',
   ),
 );
