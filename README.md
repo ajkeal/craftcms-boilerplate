@@ -1,4 +1,4 @@
-# craftcms-boilerplate
+# craftcms-ddev-boilerplate
 A clean and up to date CraftCMS installation using DDEV. 
 
 ## To get this working on your local machine
